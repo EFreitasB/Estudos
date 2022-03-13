@@ -1,0 +1,63 @@
+3.7
+@ propõe um método de rede neural convolucional bidimensional que seja utilizado na previsão da finura da farinha crua durante o processo de moagem da matéria-prima.
+Comenta-se que a finura da farinha é obtida por ensaio de peneira de 80μm.
+O ensaio de peneira é reallizado após a moagem da matéria prima do cimento.
+A previsão da finura da farinha crua é fundamental para a operação do moinho vertical, já que isso contribui para o uso mais eficiente do equipamento.
+Devido a complexidade do processo de produção do cimento, as variáveis desse processo se comportam, muitas vezes, de forma não linear, o que dificulta o estudo do sistema.
+A rede neural convolucional bidimensional será usada para extração do acoplamento entre as variéveis, resolução do atraso da variável no tempo e das características não lineares entre elas.
+Sobre o processo de moagem da matéria prima, o estudo cita o calcário, a argila e o pó de minério de ferro como os principais ingredientes da farinha crua.
+Além disso, apresenta-se os principais componentes do moinho de rolos vertical: o motor de acionamento, os rolos de moagem, a mesa de moagem, o separador, o elevador, a correia transportadora e o ventilador de tiragem induzida.
+O processo de produção da farinha crua inicia com a matéria prima sendo tranportada para a mesa de moagem.
+Essa mesa é acionada pelo motor de acionamento e começa a girar até que atinja uma velocidade ideal constante.
+Assim a matéria-prima é quebrada por extrusão.
+Durante esse processo, as partículas grandes caem diretamente no fundo do moinho e são levadas novamente à entrada do moinho pela esteira e pelo elevador, para que seja novamente moídas.
+As partículas mais finas são "sopradas" para a câmara do moinho.
+O ventilador de tiragem induzida, que se localiza à saída do moinho, traz as partículas para o separador, onde o material não qualificado cai na mesa de moagem para ser moído mais uma vez.
+Já o material qualificado (o pó fino) vai para o armazém de farinha crua.
+O texto relata também que existem relações entre as diversas variáveis do processo, por exemplo, a quantidade de alimentação da matéria-prima e a corrente do motor de acionamento são  diretamentes proporcionais.
+
+? Não sei o certo se "coorente do motor de acionamento" ?
+=======================================================================================================================================================
+@ tem o objetivo de estabelecer um modelo de previsão do índice de produção do processo de moagem da farinha crua em moinho vertical.
+Para isso ele utilizou uma rede neural Wavelet.
+No geral, o objetivo é que o desempenho da produção de farinha crua atenda às expectativas.
+O texto relata que 2 parâmetros afetam diretamente a qualidade e o rendimento da produção de farinha crua: a qualidade da matéria-prima e a estabilidade do processo produtivo de farinha crua.
+O moinho vertical é apresentado como um equipamento de moagem energeticamente eficiente que agrega várias funções: trituração, moagem, secagem,separação e transporte da matéria-prima.
+Embora espera-se que o moinho vertical trabalhe para que a farinha crua obtenha finura pré-estabelecida e que a pressão de moagem seja estável, a produção real pode ser prejudicada pela subjetividade e arbitrariedade do operador, fazendo com que a produção se torne ineficiente energeticamente.
+Devido à complexidade dos processos físicos e químicos do processo de moagem de farinha crua, fica muito difícil determinar os parâmetros operacionais
+ideais que orientam a produção.
+A rede neural serve justamente para o estudo e resolução da não linearidade existente entre as variáveis do processo.
+Então a rede neural Wavelet foi utilizada para ajudar a selecionar os principais fatores que afetam a estabilidade da operação de moagem.
+Sobre o processo de moagem da farinha crua, o texto comenta há 4 etapas principais: alimentação , moagem, coleta de pó e seleção de pó.
+O processo se inicia com o material entrando e acumulando-se no meio da placa do moinho através da esteira transportadora.
+Depois o disco giratório (mesa giratória) leva o material para sua borda, onde os rolos o moerão.
+Depois inicia-se a secagem com ar quente, onde as partículas grandes são levadas novamente ao disco de moagem e as demais partículas fluem para o separador pelo fluxo ascendente de ar quente.
+Então o pó não qualificado (uqe não pessa pelo separador) retorna ao disco de moagem para ser moído novamente e o pó fino é coletado fora da máquina.
+O texto comenta que o funcionamento estável do moinho ocorre quando a diferença de pressão está entre 4500 e 6500 kPa e a granulometria do pó de farinha crua fica em torno de 80 μm, com margem de 25% para mais ou para menos.
+Inclusive, o texto ressalta que a diferença de pressão de moagem (que é a diferença de pressão entre a entrada e a saída do moinho vertical) e a granulometria do pó de farinha crua são os dois principais indicadores do processo de moagem da matéria-prima.
+
+
+======================================================================================================================================================
+
+processo produtivo do cimento itambé:
+https://www.youtube.com/watch?v=CXcUM5TCtTA
+
+1. seleção e extração de matérias-primas
+2. central de britagem da matéria-prima
+3. material britado é guardado em silos
+4. desses silos, os materiais saem para a fábrica
+    na fábrica ocorre a pré-homogeneização, que é
+    o espalhamento do material, de forma que haja
+    uniformidade de composição química em todas as
+    porções.
+5. a matéria-prima dosada é levada ao moinho (pode ser
+de bolas ou de rolos)
+6. no moinho a matéria-prima é moída e selecionada (separador)
+7. o gás quente que ajuda a levar a matéria-prima pro
+separador r que também auxilia na secagem do material
+vêm do forno.
+8. depois de produzida, a farinha de cru vai à torre de ciclone para ser pré-aquecida e pré-calcinada
+9. Após isso, o crú é levado ao forno rotativo para ser
+cilquerizado, formando o clínquer
+10. Depois o clínquer é moído junto a adições para gerar
+os diversos tipos de cimento.

@@ -1,0 +1,132 @@
+* iniciando um repositório
+git init //iniciando repositório
+ls .git //procure o arquivo .git no repositorio
+
+erro comum ao criar novo repositorio:
+primeiro crie o readme, depois de add e commit
+antes disso nao se pode ver os branch's
+o git buga
+
+========================================================================================================================
+histórico do que foi feito: git log
+HEAD->qual branch estou ?
+apareceu todos os commits realizados !
+lá no repositorio do LTI, o master (ou main) é o que está pronto e o develop é o que está sendo feito
+
+quais os branchs existem no projeto ? git branch
+
+git commit -am "justificativa" : commita as mudanças
+: git add -A + git commit -m "just."
+esse comando só insere as mudanças, as inserções só com o git commit -A
+
+errei as ultimas alterações commitadas:
+ciclo : alteração > git add -A > git commit -m "just."
+(hard) alteração > (mixed) git add -A (soft) > git commit -m "just."
+git reset --hard <id do commit> , git reset --mixed <id do commit> , git reset --soft <id do commit>
+========================================================================================================================
+registrar os retornos do comando , e montar frases com os termos : BUSUU DE GIT
+
+criando nova versão (novo branch)
+git branch <nome da nova versão>
+
+mudando de versão (branch)
+git checkout <nome da versão>
+
+os commits são particulares de cada versão (branch)
+cada versão tem seu histórico de commits
+
+posso ter versões diferentes do sistema (branchs)
+uma pro teste e outra como versão principal
+
+eu sempre crio uma versão a partir de outra
+porém , a aprtir daí, eu posso ir alterando
+as versões de forma independente
+
+posso ter uma equipe trabalhando em cada versão do sistema
+
+* criar nova versão (branch)
+* modificar nova versão
+* constatar que os branchs são independentes
+
+=============================================================
+o que foi feito em cada arquivo ?
+
+* altere um arquivo
+quais operações foram feitas ? git diff
+
+* só o nome dos arquivos que foram modificados ?
+git diff --name-only
+
+* como saber as alterações num arquivo específico ?
+git diff <nome do arquivo>
+
+* desistindo de alterações de apenas um arquivo !
+git checkout HEAD -- <nome do arquivo>
+
+git checkout retona à uma versão, um arquivo e etc ...
+
+===============================================================
+adendo : para salvar meus projetos como estou pensando, preciso salvar meu repositório de forma remota (Github).
+
+caso eu mude de pc , preciso clonar o que está no remoto na minha pasta local
+
+git clone <url do repositório>
+===============================================================
+levar repositório para o github
+o fundamental é criar um repositório remoto, e não local
+
+remoto : enviar o 'local' para a nuvem
+
+* gerando uma chave para que o 'local' consiga modificar o 'remoto'
+
+ssh-keygen -t rsa -b 4096 -C "edgarbrunobenicio@alu.ufc.br"
+depois desse comando, ele vai dizer onde esse arquivo será salvou
+
+* va na pasta ssh saber se as chaves estao lá
+
+buscar no crtl + l pelo endereço dado no prompt é mais rápido
+
+* abrir a chave .pub numa pagina vazio da kate
+* copia o conteudo do txt em SSH and GPG Keys
+
+* depois disso da pra enviar o 'local' p online
+
+* ligando o remoto ao local :
+git remote add origin https://github.com/EFreitasB/git_curso.git
+
+*saber seu existe algum remoto ?
+git remote
+
+git remote -v (opções)
+
+*puxar alterações do 'remoto' pra meu 'local'?
+fetch
+*levar alterações do 'remoto' pra meu 'local'?
+push
+
+*...
+git push -u <origin> <versão que irá>
+preciso gerar token para a operação
+1. configuração
+2. configuração do develo
+3. configure o token
+4. use-o
+
+==============================================================
+* atualizar alterações no 'remoto'
+git push <destino> <versão enviada>
+
+token: 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
+
+*alterações
+*git add -A
+*git commit -am "just."
+
+*gitignore : o que será ignorado
+1. crie um txt chamado .gitignore
+2. escreva nele todos os arquivos ou extensões ou pastas que quer ignorar (nao quer monitorar e levar pro remoto)
+==============================================================
+
+
+
+

@@ -1,0 +1,26 @@
+quais foram os problemas na previsão da finura
+lag
+
+andreata : nao faz o estudo do lag
+    amostra aleatoria ?
+
+processo pordutivo do cimento portland
+
+o que é a qualidade ?
+1. o que aprendeu no git ?
+    facilita controlar o histórico de lterações no codigo
+    facilita trabalhar em equipe
+
+    um projeto é guardado num repositório
+    cada branch é uma versão do sistema , a versão principal é a master
+    commit é uma atualização do sistema
+
+    git status > git add > git commit
+
+    git log : listar os commits
+
+
+2. como anda no estudo do analysis factory ?
+    notebook antigo estava rodando legal
+    notebook novo parei nos graficos de regressão
+
