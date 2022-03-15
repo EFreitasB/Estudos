@@ -1,0 +1,13 @@
+uma classe tem atributos e métodos
+construindo um objeto novo
+
+objeto fração
+*atributos: numerador e denominador
+*métodos: *, -, *, /, inverter, simplificar
+em python tudo é objeto
+os métodos são ações, logo são funções
+__init__ é o construtor
+    se ela constroi o objeto, ela recebe os atributos desse objetos
+    o self é o objeto que sera construido
+    nos self's colocaremos os atributos
+    existe alguma restrição á um atributo? if...

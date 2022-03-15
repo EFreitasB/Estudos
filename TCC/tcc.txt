@@ -45,7 +45,7 @@ https://www.youtube.com/watch?v=CXcUM5TCtTA
 1. seleção e extração de matérias-primas
 2. central de britagem da matéria-prima
 3. material britado é guardado em silos
-4. desses silos, os materiais saem para a fábrica
+4. desses silos, os materiais saem para a fábrica.
     na fábrica ocorre a pré-homogeneização, que é
     o espalhamento do material, de forma que haja
     uniformidade de composição química em todas as
@@ -54,10 +54,10 @@ https://www.youtube.com/watch?v=CXcUM5TCtTA
 de bolas ou de rolos)
 6. no moinho a matéria-prima é moída e selecionada (separador)
 7. o gás quente que ajuda a levar a matéria-prima pro
-separador r que também auxilia na secagem do material
+separador e que também auxilia na secagem do material
 vêm do forno.
 8. depois de produzida, a farinha de cru vai à torre de ciclone para ser pré-aquecida e pré-calcinada
 9. Após isso, o crú é levado ao forno rotativo para ser
-cilquerizado, formando o clínquer
+clinquerizado, formando o clínquer
 10. Depois o clínquer é moído junto a adições para gerar
 os diversos tipos de cimento.

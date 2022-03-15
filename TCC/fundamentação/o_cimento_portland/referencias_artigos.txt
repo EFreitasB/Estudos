@@ -1,0 +1,16 @@
+1.Uma breve história do cimento Portland
+@article{battagin2009breve,
+  title={Uma breve hist{\'o}ria do cimento Portland},
+  author={Battagin, Arnaldo Forti},
+  journal={Associa{\c{c}}{\~a}o Brasileira de Cimento Portland. S{\~a}o Paulo. Dispon{\'\i}vel em www. abcp. com. br [15/07/2003]},
+  year={2009}
+}
+
+2.AVALIAÇÃO DA ALTERAÇÃO DA FINURA E COMPOSIÇÃO DO CIMENTO  PORTLAND BRASILEIRO NAS ÚLTIMAS DÉCADAS
+@mastersthesis{simoneto2020avaliaccao,
+  title={Avalia{\c{c}}{\~a}o da Altera{\c{c}}{\~a}o da Finura e Composi{\c{c}}{\~a}o do Cimento Portland Brasileiro nas {\'U}ltimas D{\'e}cadas: Estudo Explorat{\'o}rio},
+  author={Simoneto, Gabriel Werner and others},
+  type={{B.S.} thesis},
+  year={2020}
+}
+

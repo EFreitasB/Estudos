@@ -106,6 +106,8 @@ push
 
 *...
 git push -u <origin> <versão que irá>
+origin == study
+
 preciso gerar token para a operação
 1. configuração
 2. configuração do develo
@@ -116,7 +118,7 @@ preciso gerar token para a operação
 * atualizar alterações no 'remoto'
 git push <destino> <versão enviada>
 
-token: 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
+token: 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
 
 *alterações
 *git add -A

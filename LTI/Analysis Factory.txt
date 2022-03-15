@@ -1,0 +1,93 @@
+TCC LTI (desatualizado)
+
+* o que é o mongo ? como funciona o mongo ?
+
+1.  baixar os pacotes
+2.  desenvolvendo a aplicação
+    mongo como fonte de dados
+    pasta como fonte de dados
+3.  SOURCE_DATA_FOLDER_PATH: onde esta a pasta com os csv's
+4.  para o MODEL_TYPE = 'ABSOLUTE', tenho sp's e pv's
+5.  preciso montar o df com os csv's 'local'
+6.  o que é Data ? são os dados depois de aplicados os filtros
+7.  appling_individual_filter(predictor_name)
+    essa função aplica o filtro à um preditor
+    ela vai rodar dentro de um for, para que passe
+    por todos os blocos
+8.  aplica-se o smoothing pra cada var. resposta
+    smoothing máximo pra cada resposta
+    lag máximo pra cada resposta
+    step (ou passo) pra cada bloco
+9.  o v=[] transforma o filter_bigger_less_than numa lista
+    de string dele mesmo
+10. o bloco é composto de uma variável resposta e suas preditoras.
+* o df['RD1_PV_CLA01_SPEED'] não aparece a partir daqui porque não passa no filtro.
+* Esse cara é inicializado com 0.
+11. df_results_lags_smoothing : (informativo)
+    a. o smoothing de cada variável resposta
+    b. informações sobre os preditores :
+        lag
+        smoothing
+        correlação com a variável resposta
+        jump (passo)
+12. function_apply_lags_smoothing(df_results,Data,block_i)
+    a partir de df_results_lags_smoothing essa função aplica as suavisações e os atrasos ao banco de dados
+13. function_split_database(Data,df_results,block_i)
+    trás as informações para cada cada bloco
+    [resposta, preditores...]
+14. Tab_Lag_Smoothing_Block(r,df_results_lags_smoothing)
+    divide o df_results_lags_smoothing por bloco
+15. def tabLagSmooth_String (r)
+    utilizado no report
+    transforma os elementos de Tab_Lag_Smoothing_Block em string
+16. scatter rodou tranquilo, para o bloco 7.
+17. histogram rodou tranquilo, para o bloco 7.
+18. graficos de serie temporal para os sps e pvs rodou                  tranquilo
+    function_series_Plots(Data_inint,var):
+19. function_series_Plots_2 ( Data , var )
+    é a série temporal para as variáveis repostas
+* o que é classe (foi)
+* o que são GAM e LM
+    Generalized Additive Regression model (GAM)
+    Linear Regression (LM)
+* o que é def __init__(): (foi)
+
+===============================================================
+série temporal:
+informações coletadas intervalos regulares de tempo
+
+tem haver com a previsão de informações futuras (forecast)
+compreender os padrões das séries temporais
+
+sazonalidade, tendencia e ciclo e ruidos (informações que nao da pra explicar)
+
+forecast:
+    quais os padroes de comportamento do conjunto de dados ?
+    projeta para o futuro
+
+tecnica de amortização:
+    balancear a realidade com a estatistica
+
+quando nao ha padrao? media... coisas mais simples
+
+técnicas de forecast
+arima e suavização exponencial
+
+suavização exponencial:
+    quanto mais recente a informação, mais importante para a previsão ela é...
+    quanto mais distante se prevê, maior a margem de erro
+arima:
+    estacionaridade
+===============================================================
+
+
+
+
+
+
+
+
+
+
+
+

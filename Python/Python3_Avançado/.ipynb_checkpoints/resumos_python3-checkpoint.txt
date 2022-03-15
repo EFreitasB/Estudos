@@ -1,0 +1,9 @@
+revisão: python: (8 ,0, -1) são 12 
+
+# continuando (intermediário) 
+
+funções (def)
+* criando minha prpria funcao 
+* funcao: quando se repete uma ação mais de uma vez no codigo
+* o que é o parametro
+
